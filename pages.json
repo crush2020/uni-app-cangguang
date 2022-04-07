@@ -1,0 +1,112 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/bindAccount/index",
+			"style": {
+				"navigationBarTitleText": "绑定账号",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "经销商共仓系统"
+			}
+		},
+		{
+			"path": "pages/personalManagement/index",
+			"style": {
+				"navigationBarTitleText": "个人管理",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/personalManagement/password",
+			"style": {
+				"navigationBarTitleText": "个人详细信息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/carMangement/index",
+			"style": {
+				"navigationBarTitleText": "在库车辆",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/index/warehouseMangement/index",
+			"style": {
+				"navigationBarTitleText": "仓库管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personalManagement/information/information",
+			"style": {
+				"navigationBarTitleText": "个人信息管理",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/index/carMangement/productDetail",
+			"style": {
+				"navigationBarTitleText": "车辆详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/index/carApplication/index",
+			"style": {
+				"navigationBarTitleText": "用时申请",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/index/myList/index",
+			"style": {
+				"navigationBarTitleText": "申请记录",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/index/myList/more/more",
+			"style": {
+				"navigationBarTitleText": "申请详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/tryout/tryout",
+			"style": {
+				"navigationBarTitleText": "试用申请",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#088A29",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/taber/index.png",
+			"selectedIconPath": "static/taber/indexActive.png",
+			"text": "首页"
+		},
+		{
+			"pagePath": "pages/index/carMangement/index",
+			"iconPath": "static/taber/depot.png",
+			"selectedIconPath": "static/taber/depotActive.png",
+			"text": "在库车辆"
+		},{
+			"pagePath": "pages/personalManagement/index",
+			"iconPath": "static/taber/PM.png",
+			"selectedIconPath": "static/taber/PMActive.png",
+			"text": "个人管理"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
